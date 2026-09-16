@@ -15,7 +15,7 @@ The application provides a simple and organized way to manage employees, record 
 - Archive completed months
 - Review employee performance across archived months
 - Identify employees with the highest commitment rates
-- Compare monthly attendance performance
+- Compare performance across different months
 - Fully offline functionality
 - Simple and user-friendly interface
 
@@ -23,7 +23,7 @@ The application provides a simple and organized way to manage employees, record 
 
 - Add new employees
 - Edit employee information
-- Store salary details
+- Store employee salary details
 - Monitor individual attendance records
 - Review employee performance and commitment rates
 
@@ -33,14 +33,14 @@ The application provides a simple and organized way to manage employees, record 
 - Organize attendance records by month
 - Calculate monthly attendance rates
 - Track employee commitment over time
-- Review absence history
+- Review employee absence history
 
 ## Salary Calculation
 
 - Store the basic salary for each employee
-- Calculate suggested salary amounts based on recorded absences
+- Generate suggested salaries based on recorded absences
 - Review salary calculations before completing the month
-- Preserve monthly salary records inside the archive
+- Preserve monthly salary records in the archive
 
 ## Monthly Archive
 
@@ -50,19 +50,27 @@ The application provides a simple and organized way to manage employees, record 
 - Compare commitment rates across different months
 - Identify the highest-performing employee or month
 
-## Privacy and Data Storage
+## Privacy and Security
 
 - Hodor works completely offline
 - Employee information is stored locally on the user's device
 - The application does not require account registration
 - Employee data is not uploaded to external servers
 - The application does not share employee information with third parties
-- Users remain responsible for managing and protecting access to their devices
+- Users remain responsible for protecting access to their devices
+
+## Database and Storage
+
+- SQLite for structured offline data storage
+- Employee, attendance, salary, and archive data are stored locally
+- The application does not require an internet connection
+- No employee data is uploaded to external databases or servers
 
 ## Tech Stack
 
 - Flutter
 - Dart
+- SQLite
 - Local Data Storage
 - Offline-First Architecture
 
